@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Swetha Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/Portfolio/images/icon.png" type="image/gif" sizes="20x20">
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      .hero {
+        position: relative;
+      }
+
+      nav {
+        background-color: white;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo {
+        height: 60px;
+        width: 60px;
+        margin-left: 5%;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        margin-right: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .container {
+        margin-top: 30px;
+      }
+
+      .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .col-details {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 30px;
+        padding: 20px;
+        text-align: justify;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        transition: transform 0.3s;
+      }
+
+      .col-details:hover {
+        transform: scale(1.02);
+      }
+
+      .col-details h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .col-details p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+        color: #555;
+      }
+
+      .col-details a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #fd4766;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .col-details a:hover {
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7sbnRqfOTHu4ZbgThY0eXhmUZ34dRPc7F7A&usqp=CAU" class="logo" style="width:120px"/>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="https://drive.google.com/file/d/129m0o21m1StY7fVvlqmIbzRdD1d0K8s2/view?usp=drive_link" class="btn">Resume</a>
+      </nav>
+
+      <div class="container">
+        <div class="row project-container">
+          <!-- Project Details - Project 1 -->
+          <div class="col-details">
+            <h2>Project Title : Portfolio Website</h2>
+            <p>Technologies Used: HTML, CSS, Bootstrap</p>
+            <p>Project Info: My portfolio showcases my expertise in specific skills. It features a diverse range of projects, providing insight into my problem-solving approach and design aesthetic. Explore my work to see the quality I deliver.</p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+
+          <!-- Project Details - Project 2 -->
+          <div class="col-details">
+            <h2>Project Title : Travel and Tourism Website (Frontend-Part)</h2>
+            <p>Technologies Used: HTML, CSS, JavaScript, Bootstrap</p>
+            <p>Project Info: The "Travel and Tourism (Frontend Part)" project is a web application designed to enhance the user experience for travelers. It offers an intuitive and visually appealing interface for accessing travel information, booking accommodations, exploring destinations, and planning itineraries. With a user-friendly design and interactive features, this frontend component aims to provide seamless navigation and engagement for travelers seeking memorable and hassle-free journeys.</p>
+            <a href="https://github.com/Swetha-0502/Travel-and-Tourism" target="_blank">View Project</a>
+          </div>
+
+          <!-- Project Details - Project 3 -->
+          <div class="col-details">
+            <h2>Project Title : FutureTechUnleashed Blog-Website</h2>
+            <p>Technologies Used: HTML, CSS, JavaScript, Bootstrap, MySQL, PHP</p>
+            <p>Project Info: "FutureTechUnleashed - Blog Website" is an innovative online platform dedicated to exploring and disseminating cutting-edge technology trends, innovations, and insights. Our project serves as a dynamic hub where technology enthusiasts, professionals, and curious minds can come together to delve into the world of emerging technologies and their impact on various facets of our lives.</p>
+            <a href="https://github.com/Swetha-0502/FutureTechUnleashed-Blog_Website" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
